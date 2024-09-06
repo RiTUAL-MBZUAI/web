@@ -183,7 +183,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 </div>
 {% endif %}
 
-<!--
+<!---
 <h4 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h4>
 <div class="row">
 
