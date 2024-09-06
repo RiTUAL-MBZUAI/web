@@ -71,7 +71,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
 </div>
 
-
+<!-- 
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
@@ -84,7 +84,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 {% if even_odd == 1 %}
 </div>
 {% endif %}
-
+-->
 
 <h4 id="postdocs">Postdocs</h4>
 
