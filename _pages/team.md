@@ -90,6 +90,8 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
+{% assign even_odd = number_printed | modulo: 2 %}
+
 <h4 id="doctoral-students">Doctoral Students</h4>
 
 <h4 id="research-assistants">Research Assistants</h4>
