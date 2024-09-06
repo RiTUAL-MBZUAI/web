@@ -87,13 +87,18 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 -->
 
 <h4 id="postdocs">Postdocs</h4>
-This is test message.
+Info coming soon.
 
 <h4 id="doctoral-students">Doctoral Students</h4>
+Info coming soon.
 
 <h4 id="research-assistants">Research Assistants</h4>
+Info coming soon.
 
 <h4 id="master-and-bachelor-students">Master Students</h4>
+Info coming soon.
+
+<!--
 {% assign number_printed = 0 %}
 {% for member in site.data.students %}
 
@@ -104,8 +109,8 @@ This is test message.
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <p class="sub-heading">{{ member.name }}</p>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
+  <p class="sub-heading">{{ member.name }}</p> 
+  <i>{{ member.info }} 
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
@@ -145,10 +150,13 @@ This is test message.
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+-->
 
 
 <h4 id="alumni">Alumni</h4>
+Info coming soon.
 
+<!--
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
 
@@ -178,7 +186,7 @@ This is test message.
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
 </div>
-{% endif %}
+{% endif %} -->
 
 <!---
 <h4 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h4>
