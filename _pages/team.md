@@ -87,10 +87,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 -->
 
 <h4 id="postdocs">Postdocs</h4>
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
+This is test message.
 
 <h4 id="doctoral-students">Doctoral Students</h4>
 
