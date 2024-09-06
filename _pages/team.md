@@ -87,6 +87,8 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 -->
 
 <h4 id="postdocs">Postdocs</h4>
+{% assign number_printed = 0 %}
+{% for member in site.data.students %}
 
 <h4 id="doctoral-students">Doctoral Students</h4>
 
@@ -179,6 +181,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 </div>
 {% endif %}
 
+<!--
 <h4 id="Former visitors, BSc/ MSc students">Former Visitors, BSc/ MSc Students</h4>
 <div class="row">
 
@@ -204,7 +207,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 </div>
 
 </div>
-
+-->
 
 <h4 id="administrative-support">Administrative Support</h4>
 <a href="mailto:Rijsewijk@Physics.LeidenUniv.nl">Ellie van Rijsewijk</a> is helping us (and other groups) with administration.
