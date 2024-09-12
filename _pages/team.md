@@ -29,7 +29,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
   <div style="text-align: justify;">
   <p>{{ member.info }}</p>
-  {{ member.email }}
+  Email: {{ member.email }}
   </div>
 
   <h5>Education:</h5>
@@ -101,7 +101,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <p class="sub-heading">{{ member.name }}</p>
-  {{ member.duration }}<br><br> {{ member.info }} <br> Email: {{ member.email }}<br>
+  {{ member.duration }}<br> {{ member.info }} <br> Email: {{ member.email }}<br>
   <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
