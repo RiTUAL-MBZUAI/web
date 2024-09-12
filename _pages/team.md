@@ -29,6 +29,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
   <div style="text-align: justify;">
   <p>{{ member.info }}</p>
+  {{ member.email }}
   </div>
 
   <h5>Education:</h5>
