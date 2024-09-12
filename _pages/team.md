@@ -13,7 +13,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 
 <h4 id="staff">Group Leader</h4>
 {% assign number_printed = 0 %}
-{% for member in site.data.team_members %}
+{% for member in site.data.team_leader %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -24,11 +24,11 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/mbzuai_staff/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
   <p class="sub-heading bold">{{ member.name }}</p>
-  <i class="gray">{{ member.info }}</i>
+  <i class="gray">{{ member.role }}</i>
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
   <div style="text-align: justify;">
-  <p>Professor Solorio’s research focuses on information extraction (structured prediction) problems, multilingual models, with a special emphasis on mixed language settings, low resource NLP, and more recently, multimodal content understanding.</p>
+  <p>{{ member.info }}</p>
   </div>
 
   <h5>Education:</h5>
@@ -100,8 +100,8 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <p class="sub-heading">{{ member.name }}</p>
-  {{ member.duration }} <br> {{ member.info }} <br> Email: {{ member.email }}<br>
-  <!-- <ul style="overflow: hidden">
+  <p> {{ member.duration }} </p> <br> {{ member.info }} <br> Email: {{ member.email }}<br>
+  <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
   {% endif %}
@@ -120,7 +120,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
   {% endif %}
-  </ul> -->
+  </ul>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

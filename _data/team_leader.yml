@@ -1,6 +1,7 @@
 - name: Thamar Solorio
   photo: Thamar Solorio.jpg
-  info: Professor of Natural Language Processing
+  role: Professor of Natural Language Processing
+  info: Professor Solorio’s research focuses on information extraction (structured prediction) problems, multilingual models, with a special emphasis on mixed language settings, low resource NLP, and more recently, multimodal content understanding.
   email: thamar.solorio@mbzuai.ac.ae
   number_educ: 3
   education1: Ph.D. in computer science, National Institute of Astrophysics, Optics and Electronics, in Puebla, Mexico
