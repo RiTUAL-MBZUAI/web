@@ -90,7 +90,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
 Info coming soon.
 
 {% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
+{% for member in site.data.postdocs %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -101,7 +101,7 @@ Info coming soon.
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <p class="sub-heading">{{ member.name }}</p>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
+  {{ member.duration }} <br> Role: {{ member.info }} <br> Email: {{ member.email }}
   <ul style="overflow: hidden">
 
   </ul>
