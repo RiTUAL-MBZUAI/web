@@ -362,8 +362,8 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <p class="sub-heading">{{ member.name }}</p>
   <p>{{ member.info }}</p>
-  {{ member.duration }} 
-  {{ member.current }}<br>
+  {{ member.duration }<br>} 
+  {{ member.current }}
   <ul style="overflow: hidden">
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
