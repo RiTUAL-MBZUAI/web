@@ -72,6 +72,8 @@ firstp {
 .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
 	padding-left: 16px;
 	padding-right: 16px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 /* Grid overrides */
@@ -313,9 +315,4 @@ color:#99a7b2;
 
 .collapse_font{
     font-size: small;
-}
-
-.info-justify{
-    text-align: justify;
-    text-justify: inter-word;
 }
