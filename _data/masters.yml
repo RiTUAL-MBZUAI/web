@@ -1,13 +1,12 @@
-- name: First Name
-  photo: verdoes1.jpg
-  duration:  February 2024 - Present
-  info: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-  email: first.name@mbzuai.ac.ae
-  number_educ: 1
-  education1: BS Computer Science 
-  education2:
-  education3:
-  education4:
+- name: Mahardika Krisna Ihsani
+  photo: mahardika_krisna_ihsani.jpg
+  duration:  August 2023 - Present
+  info: Krisna is an MSc student at MBZUAI with interests lie in representation learning for low-resource languages, model interpretability,  and alignment. His grand goal of research is to propose better learning paradigm (that might also ground linguistic heuristics) or model arhitecture that could generalize well to underrepresented languages where scaling doesn’t work and producing representation that can be disentangled easily enabling easier alignment on different values. 
+  email: mahardika.ihsani@mbzuai.ac.ae
+  number_educ: 2
+  education1: M.Sc in Natural Language Processing, MBZUAI, in Abu Dhabi, UAE.
+  education2: B.Cs in Computer Science, Universitas Indonesia, in Depok, Indonesia.
+  website: https://codefire53.github.io/
 
 - name: Second Name
   photo: verdoes1.jpg
