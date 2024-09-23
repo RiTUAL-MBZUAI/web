@@ -1,11 +1,11 @@
-- name: First Name
-  photo: verdoes1.jpg
-  duration:  February 2024 - Present
-  info: Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-  email: first.name@mbzuai.ac.ae
-  number_educ: 1
-  education1: MS Computer Science 
-  education2:
+- name: Emilio Villa-Cueva
+  photo: emilio.jpeg
+  duration:  August 2024 - Present
+  info: Emilio Villa-Cueva is a PhD student at MBZUAI. He holds a master’s degree in Computer Science from the Mathematics Research Center (CIMAT). His research focuses on building systems capable of understanding human communication across different languages and cultures in a multimodal setting. He is also interested on exploring methods that utilize minimal labeled data through few-shot learning. Before, he has worked on domain adaptation, cross-lingual transfer, and clickbait spoiling. [Personal website](https://villacu.github.io/)
+  email: evillacueva [at] gmail [dot] com
+  number_educ: 2
+  education1: MS in Computer Science and Industrial Mathematics
+  education2: PhD in Natural Language Processing (currently)
   education3:
   education4:
 
