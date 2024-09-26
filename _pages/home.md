@@ -32,23 +32,20 @@ Welcome to the official website of the RiTUAL (Research in Text Understanding an
     <!-- Items -->
     <div class="carousel-inner" markdown="0">
         <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s11.jpg" alt="Slide 1" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/_slider_1.jpg" alt="Slide 1" />
         </div>
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s4.jpg" alt="Slide 2" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/_slider_2.jpg" alt="Slide 2" />
         </div>    
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s13.png" alt="Slide 3" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/_slider_3.jpg" alt="Slide 3" />
         </div>    
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpeg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/_slider_4.jpg" alt="Slide 4" />
         </div> 
         <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s7.jpg" alt="Slide 5" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/_slider_5.jpg" alt="Slide 5" />
         </div>     
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s16.jpg" alt="Slide 6" />
-        </div>
 
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
