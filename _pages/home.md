@@ -13,7 +13,7 @@ Welcome to the official website of the RiTUAL (Research in Text Understanding an
 <style>
 #carousel img {
     width: 100%;
-    height: 470px; /* Set the desired height */
+    height: 450px; /* Set the desired height */
     object-fit: cover; /* This will ensure the images cover the entire area while maintaining aspect ratio */
 }
 </style>
