@@ -1,35 +1,35 @@
-- name: First Name
-  photo: verdoes1.jpg
-  duration:  Month 2020 - Month 2024
-  info: Ph.D. Natural Language Processing
-  current: Current position
-  email: first.name@mbzuai.ac.ae
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education4:
+# - name: First Name
+#   photo: verdoes1.jpg
+#   duration:  Month 2020 - Month 2024
+#   info: Ph.D. Natural Language Processing
+#   current: Current position
+#   email: first.name@mbzuai.ac.ae
+#   number_educ: 0
+#   education1: 
+#   education2:
+#   education3:
+#   education4:
 
-- name: Second Name
-  photo: verdoes1.jpg
-  duration:  Month 2021 - Month 2023
-  info: Masters in NLP
-  current: Current position
-  email: second.name@mbzuai.ac.ae
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education4:
+# - name: Second Name
+#   photo: verdoes1.jpg
+#   duration:  Month 2021 - Month 2023
+#   info: Masters in NLP
+#   current: Current position
+#   email: second.name@mbzuai.ac.ae
+#   number_educ: 0
+#   education1: 
+#   education2:
+#   education3:
+#   education4:
 
-- name: Second Name
-  photo: verdoes1.jpg
-  duration:  Month 2021 - Month 2023
-  info: Masters in NLP
-  current: Current position
-  email: second.name@mbzuai.ac.ae
-  number_educ: 0
-  education1: 
-  education2:
-  education3:
-  education4:
+# - name: Second Name
+#   photo: verdoes1.jpg
+#   duration:  Month 2021 - Month 2023
+#   info: Masters in NLP
+#   current: Current position
+#   email: second.name@mbzuai.ac.ae
+#   number_educ: 0
+#   education1: 
+#   education2:
+#   education3:
+#   education4:
