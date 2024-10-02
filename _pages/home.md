@@ -40,11 +40,8 @@ Welcome to the official website of the RiTUAL (Research in Text Understanding an
             <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s3.jpg" alt="Slide 3" />
         </div>    
          <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s19.jpeg" alt="Slide 4" />
+            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s4.jpg" alt="Slide 4" />
         </div> 
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/slider/s7.jpg" alt="Slide 5" />
-        </div>     
         
     </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
