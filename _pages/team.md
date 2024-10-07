@@ -6,10 +6,10 @@ sitemap: false
 permalink: /team/
 ---
 
-<h3>Group Members</h3>
+<h3>Group Members</h3>   Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#research-assistants), [master students](#master-and-bachelor-students), [alumni](#alumni).
 
 <!--Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support). -->
-Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#research-assistants), [master students](#master-and-bachelor-students), [alumni](#alumni).
+
 
 <h4 id="staff">Faculty</h4>
 {% assign number_printed = 0 %}
@@ -31,7 +31,6 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   <p>{{ member.info }}</p>
   Email: {{ member.email }}
   </div>
-
  <!-- <h5>Education:</h5>
  -->
 <ul style="overflow: hidden">
