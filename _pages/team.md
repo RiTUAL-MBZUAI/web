@@ -30,6 +30,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   <div style="text-align: justify;">
   <p>{{ member.info }}</p>
   Email: {{ member.email }}
+  X: {{ member.x }}
   </div>
 
  <!-- <h5>Education:</h5>
