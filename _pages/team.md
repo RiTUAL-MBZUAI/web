@@ -30,7 +30,6 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   <div style="text-align: justify;">
   <p>{{ member.info }}</p>
   Email: {{ member.email }}
-  X: {{ member.x }}
   </div>
 
  <!-- <h5>Education:</h5>
@@ -74,6 +73,10 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
 </div>
 
+<div class="col-sm-12 clearfix">
+<a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a>
+</div>
+   
 <!-- 
 {% assign number_printed = number_printed | plus: 1 %}
 
