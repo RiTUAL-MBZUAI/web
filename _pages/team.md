@@ -31,6 +31,7 @@ permalink: /team/
   <p>{{ member.info }}</p>
   Email: {{ member.email }}
   </div>
+ <p>X: {{ member.x }}</p>
  <!-- <h5>Education:</h5>
  -->
 <ul style="overflow: hidden">
