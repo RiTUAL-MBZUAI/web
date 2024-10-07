@@ -32,7 +32,8 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#r
   Email: {{ member.email }}
   </div>
 
-  <h5>Education:</h5>
+ <!-- <h5>Education:</h5>
+ -->
 <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
