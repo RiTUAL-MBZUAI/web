@@ -72,5 +72,5 @@ Example research topics include:
 <h3>Explore Our Work</h3>
 
 <div style="text-align: justify;">
-Explore our publications, ongoing projects, and the expertise of our group: (<a href="{{ site.url }}{{ site.baseurl }}/publications">see more...</a>)
+Explore our publications, ongoing projects, and the expertise of our group: (<a href="{{ site.url }}{{ site.baseurl }}/publications">publications</a>)
 </div>
