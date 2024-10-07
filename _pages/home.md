@@ -7,7 +7,7 @@ permalink: /
 ---
 
 <div style="text-align: justify;">
-Welcome to the official website of the RiTUAL (Research in Text Understanding and Analysis of Language) research group at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). As pioneers in advancing the frontiers of NLP, our group is committed to conducting cutting-edge research that addresses the complexities of natural language understanding and processing.
+Welcome to the official website of the RiTUAL (Research in Text Understanding and Analysis of Language) research group at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). 
 </div>
 
 <style>
@@ -57,31 +57,20 @@ Welcome to the official website of the RiTUAL (Research in Text Understanding an
 <h3 class="navy">Research Focus</h3>
 
 <div style="text-align: justify;">
-Our academics in the Natural Language Processing (NLP) Research Group focus on developing advanced systems that enable computers to communicate with humans using everyday language. They are dedicated to creating technologies that translate information from computer databases into readable or audible human language and vice versa.
+Our team focuses on developing advanced systems that enable computers to process human language. We tend to focus on research topics that contribute to more inclusive technology.
 </div>
 
-These innovative systems facilitate a range of sophisticated tasks, including:
+Example research topics include:
 
-* Inter-language translation
-* Semantic understanding
-* Text summarization
-* Dialogue management
-* Speech Recognition
+* Evaluation benchmarks for culturally diverse visual question-answering
+* Developing NLP technology to support tasks that include multilingual and code-switched data
+* Multimodal models for content understanding
+* Low resource and efficient NLP
+* Enriching NLP technology with social intelligence 
 
-Core applications of our NLP algorithms encompass:
-
-* Interactive voice response systems
-* Automated translators
-* Digital personal assistants (e.g., Siri, Cortana, Alexa)
-* Chatbots
-* Smart word processors
-
-<div style="text-align: justify;">
-Through these efforts, our group aims to enhance human-computer interaction and advance the capabilities of AI-driven linguistic analysis.
-</div>
 
 <h3>Explore Our Work</h3>
 
 <div style="text-align: justify;">
-Explore our publications, ongoing projects, and the expertise of our esteemed researchers who are shaping the future of AI-driven linguistic analysis. (<a href="{{ site.url }}{{ site.baseurl }}/publications">see more...</a>)
+Explore our publications, ongoing projects, and the expertise of our group: (<a href="{{ site.url }}{{ site.baseurl }}/publications">see more...</a>)
 </div>
