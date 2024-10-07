@@ -1,12 +1,8 @@
 - name: Thamar Solorio
   photo: Thamar Solorio.jpg
   role: Professor of Natural Language Processing
-  info: Professor Solorio’s research focuses on information extraction (structured prediction) problems, multilingual models, with a special emphasis on mixed language settings, low resource NLP, and more recently, multimodal content understanding.
+  info: Thamar’s research interests include all things multilingual, low-resource NLP, information extraction, and, more recently, multimodal problems.
   email: thamar.solorio@mbzuai.ac.ae
-  number_educ: 3
-  education1: Ph.D. in computer science, National Institute of Astrophysics, Optics and Electronics, in Puebla, Mexico
-  education2: Master’s in computer science, National Institute of Astrophysics, Optics and Electronics, in Puebla, Mexico
-  education3: Bachelor of Science in computer systems engineering, Autonomous University of Chihuahua, Chihuahua, Mexico
   website: http://solorio.uh.edu/
   google_scholar: https://scholar.google.com/citations?hl=en&user=Gmjwy-IAAAAJ&view_op=list_works&sortby=pubdate
 
