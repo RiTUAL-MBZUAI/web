@@ -11,7 +11,7 @@ permalink: /team/
 <!--Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support). -->
 Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#research-assistants), [master students](#master-and-bachelor-students), [alumni](#alumni).
 
-<h4 id="staff">Group Leader</h4>
+<h4 id="staff">Faculty</h4>
 {% assign number_printed = 0 %}
 {% for member in site.data.team_leader %}
 
