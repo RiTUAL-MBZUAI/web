@@ -1,7 +1,7 @@
 ---
-title: "RiTUAL - Home"
+title: "RiTUAL - Home | NLP & AI Research at MBZUAI - Text Understanding & Analysis"
 layout: homelay
-excerpt: "Research in Text Understanding and Analysis of Language"
+excerpt: "Research in Text Understanding and Analysis of Language - RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL), focusing on text understanding, multilingual NLP, and low-resource NLP."
 sitemap: false
 permalink: /
 ---
