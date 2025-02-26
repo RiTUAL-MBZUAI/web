@@ -1,7 +1,7 @@
 ---
-title: "RiTUAL - News"
+title: "RiTUAL - News | NLP & AI Research at MBZUAI - Text Understanding & Analysis"
 layout: textlay
-excerpt: "RiTUAL -- News"
+excerpt: "RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL)."
 sitemap: false
 permalink: /allnews.html
 ---

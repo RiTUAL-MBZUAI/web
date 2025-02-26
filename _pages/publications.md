@@ -1,8 +1,7 @@
 ---
-title: "RiTUAL - Publications"
+title: "RiTUAL - Publications | NLP & AI Research at MBZUAI - Text Understanding & Analysis"
 layout: gridlay
-excerpt: "RiTUAL -- Publications."
-excerpt: "RiTUAL: Team members"
+excerpt: "RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL)."
 sitemap: false
 permalink: /publications/
 ---

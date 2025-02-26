@@ -1,7 +1,7 @@
 ---
 title: "RiTUAL - Team | NLP & AI Research at MBZUAI - Text Understanding & Analysis"
 layout: gridlay
-excerpt: "RiTUAL: Team members | RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL), focusing on text understanding multilingual NLP, and low-resource NLP."
+excerpt: "RiTUAL: Team members | RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL)."
 sitemap: false
 permalink: /team/
 ---
