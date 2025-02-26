@@ -22,7 +22,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-12 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/mbzuai_staff/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/mbzuai_staff/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" alt="{{ member.name }}" />
   <h1 class="sub-heading bold">{{ member.name }}</h1>  
   <em class="gray"> {{ member.role }}</em>
 
