@@ -1,14 +1,13 @@
-# - name: First Name
-#   photo: verdoes1.jpg
-#   duration:  Month 2020 - Month 2024
-#   info: Ph.D. Natural Language Processing
-#   current: Current position
-#   email: first.name@mbzuai.ac.ae
-#   number_educ: 0
-#   education1: 
-#   education2:
-#   education3:
-#   education4:
+- name: Jesus-German Ortiz-Barajas
+  photo: jgerman.jpg
+  duration:  January 2024 - Present
+  info: German holds a master's degree in Computer Science from the National Autonomous University of Mexico (UNAM). His current work focuses on information extraction tasks using parameter-efficient techniques for low-resource languages, aiming to enhance accessibility and usability of NLP technologies. [Personal website](https://jgermanob.github.io/)
+  email: jgermanmx [at] gmail [dot] com
+  number_educ: 1
+  education1: MSc. Computer Science 
+  education2:
+  education3:
+  education4:
 
 # - name: Second Name
 #   photo: verdoes1.jpg
