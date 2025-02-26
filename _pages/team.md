@@ -23,9 +23,8 @@ permalink: /team/
 
 <div class="col-sm-12 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/mbzuai_staff/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" />
-  <!-- <p class="sub-heading bold">{{ member.name }}</p> -->
   <h1 class="sub-heading bold">{{ member.name }}</h1>  
-  <i class="gray">{{ member.role }}</i>
+  <em> class="gray">{{ member.role }}</em>
 
 [//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
   <div style="text-align: justify;">
