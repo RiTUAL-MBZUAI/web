@@ -106,7 +106,9 @@ permalink: /team/
 
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <p class="sub-heading">{{ member.name }}</p>
+  <!-- <p class="sub-heading">{{ member.name }}</p> -->
+  <h2 class="sub-heading">{{ member.name }}</h2>
+  
   {{ member.duration }} 
   <p>{{ member.info }}</p>  
   Email: {{ member.email }}<br>
