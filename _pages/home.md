@@ -63,10 +63,10 @@ Our team focuses on developing advanced systems that enable computers to process
 Example research topics include:
 
 * <strong class="strong_nobold">Evaluation benchmarks for culturally diverse visual question-answering</strong>
-* Developing NLP technology to support tasks that include multilingual and code-switched data
-* Multimodal models for content understanding
-* Low resource and efficient NLP
-* Enriching NLP technology with social intelligence 
+* <strong class="strong_nobold">Developing NLP technology</strong> to support tasks that include <strong class="strong_nobold">multilingual and code-switched data</strong>
+* <strong class="strong_nobold">Multimodal models for content understanding</strong>
+* <strong class="strong_nobold">Low resource and efficient NLP</strong>
+* <strong class="strong_nobold">Enriching NLP technology with social intelligence</strong> 
 
 
 <h3>Explore Our Work</h3>
