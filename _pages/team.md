@@ -70,11 +70,11 @@ permalink: /team/
 </div>
 <div class="col-sm-12 clearfix">
   <a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a>
-  <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
+  <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a>
 </div>
 
 <div class="col-sm-12 clearfix">
-<a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a>
+<a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a><br>
 </div>
    
 <!-- 
@@ -104,7 +104,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" alt="{{ member.name }}" />
   
   <h2 class="sub-heading">{{ member.name }}</h2>
   
@@ -157,7 +157,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" alt="{{ member.name }}" />
   
   <h2 class="sub-heading">{{ member.name }}</h2>
   
@@ -210,7 +210,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" alt="{{ member.name }}" />
   
   <h2 class="sub-heading">{{ member.name }}</h2>
   
@@ -264,7 +264,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" alt="{{ member.name }}" />
   
   <h2 class="sub-heading">{{ member.name }}</h2>
   
@@ -372,7 +372,7 @@ permalink: /team/
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" alt="{{ member.name }}" />
   
   <h2 class="sub-heading">{{ member.name }}</h2>
   
