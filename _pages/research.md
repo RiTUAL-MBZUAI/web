@@ -3,7 +3,7 @@ title: "RiTUAL - Research"
 layout: textlay
 excerpt: "RiTUAL -- Research"
 sitemap: false
-permalink: /thamarsolorio/
+permalink: /research/
 ---
 
 # Research
