@@ -3,7 +3,7 @@ title: "RiTUAL - Team | NLP & AI Research at MBZUAI - Text Understanding & Analy
 layout: gridlay
 excerpt: "RiTUAL: Team members | RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL)."
 sitemap: false
-permalink: /team/
+permalink: /thamarsolorio/
 ---
 
 <h3>Group Members</h3>   Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#research-assistants), [master students](#master-and-bachelor-students), [alumni](#alumni).
