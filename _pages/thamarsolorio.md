@@ -67,9 +67,28 @@ permalink: /thamarsolorio/
   <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a>
   <a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a><br>
 </div>
+   
+<!-- 
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
+{% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+-->
+
+<h4 id="bio">BIO</h4>
+
+
+<div class="row">
 
 </div>
 
-
-<h4 id="postdocs">BIO</h4>
+</div>
 
