@@ -85,7 +85,6 @@ permalink: /thamarsolorio/
 
 <h4 id="bio">BIO</h4>
 <div class="row">
-
 <div class="col-sm-12 clearfix">
 <div style="text-align: justify;">
 <p>Prior to joining MBZUAI, Professor Solorio was a Professor of Computer Science at the University of Houston (UH) and the Director and Founder of the RiTUAL Lab at UH. She holds graduate degrees in computer science from the Instituto Nacional de Astrofísica, Óptica y Electrónica, in Puebla, Mexico.</p>
@@ -96,7 +95,31 @@ permalink: /thamarsolorio/
 
 <p>Professor Solorio has a US patent awarded in 2022 for her work on recommendation systems for books. Before joining UH, she was an Assistant Professor at the University of Alabama at Birmingham.</p>
 </div></div>
+</div>
 
+<h4 id="bio">Education</h4>
+<div class="row">
+<div class="col-sm-12 clearfix">
+<div style="text-align: justify;">
+* Ph.D. in computer science, National Institute of Astrophysics, Optics and Electronics, in Puebla, Mexico
+* Master’s in computer science, National Institute of Astrophysics, Optics and Electronics, in Puebla, Mexico
+* Bachelor of Science in computer systems engineering, Autonomous University of Chihuahua, Chihuahua, Chihuahua, Mexico
+</div></div>
+</div>
+
+<h4 id="bio">Accolades</h4>
+<div class="row">
+<div class="col-sm-12 clearfix">
+<div style="text-align: justify;">
+* Editor in Chief of the ACL Rolling Review (ARR) initiative, 2022-
+* ARR Advisory board member
+* Elected board member to the North American Chapter of Association for Computational Linguistics
+* UHCS Academic Excellence Award, COSC Department Award,  Fall 2017
+* CRA-W Mid Career Mentoring Workshop, Travel Grant, June 2015
+* 2014 Denice Denton Emerging Leader ABIE Award, Recognition by the Anita Borg Institute, Fall 2014
+* Research Visit for Distinguished Researchers, UPV, Spain, Fall 2011
+* Anthony Barnard Award, CIS, UAB Fall 2011
+</div></div>
 </div>
 
 </div>
