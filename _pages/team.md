@@ -72,11 +72,12 @@ permalink: /team/
   <!-- <a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a> -->
   <a href="{{ site.url }}{{ site.baseurl }}/thamarsolorio" class="custom-sky-btn">PERSONAL WEBSITE</a>
   <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a>
+  <a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a><br>
 </div>
 
-<div class="col-sm-12 clearfix">
+<!-- <div class="col-sm-12 clearfix">
 <a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a><br>
-</div>
+</div> -->
    
 <!-- 
 {% assign number_printed = number_printed | plus: 1 %}
