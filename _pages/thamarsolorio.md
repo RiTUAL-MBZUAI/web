@@ -97,7 +97,7 @@ permalink: /thamarsolorio/
 </div></div>
 </div>
 
-<h4 id="bio">Education</h4>
+<h4 id="Education">Education</h4>
 <div class="row">
 <div class="col-sm-12 clearfix">
 <div style="text-align: justify;">
@@ -107,7 +107,7 @@ permalink: /thamarsolorio/
 </div></div>
 </div>
 
-<h4 id="bio">Accolades</h4>
+<h4 id="Accolades">Accolades</h4>
 <div class="row">
 <div class="col-sm-12 clearfix">
 <div style="text-align: justify;">
@@ -119,6 +119,17 @@ permalink: /thamarsolorio/
 * 2014 Denice Denton Emerging Leader ABIE Award, Recognition by the Anita Borg Institute, Fall 2014
 * Research Visit for Distinguished Researchers, UPV, Spain, Fall 2011
 * Anthony Barnard Award, CIS, UAB Fall 2011
+</div></div>
+</div>
+
+<h4 id="Research">Research</h4>
+<div class="row">
+<div class="col-sm-12 clearfix">
+<div style="text-align: justify;">
+She has coauthored more than 200 publications in a wide range of NLP topics:
+* Pubication 1
+* Pubication 2
+* Pubication 3
 </div></div>
 </div>
 
