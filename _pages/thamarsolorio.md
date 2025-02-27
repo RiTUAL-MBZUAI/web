@@ -67,3 +67,11 @@ permalink: /thamarsolorio/
   <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a>
   <a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a><br>
 </div>
+
+
+<h4 id="bio">BIO</h4>
+<div class="row">
+<div class="col-sm-12 clearfix">
+ 
+</div>
+ </div>
