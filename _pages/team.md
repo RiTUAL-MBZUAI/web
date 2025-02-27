@@ -69,7 +69,8 @@ permalink: /team/
 </ul>
 </div>
 <div class="col-sm-12 clearfix">
-  <a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a>
+  <!-- <a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a> -->
+  <a href="{{ site.url }}{{ site.baseurl }}/research" class="custom-sky-btn">PERSONAL WEBSITE</a>
   <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a>
 </div>
 
