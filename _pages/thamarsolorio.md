@@ -1,41 +1,78 @@
 ---
-title: "RiTUAL - Vacancies"
-layout: textlay
-excerpt: "Openings"
+title: "RiTUAL - Team | NLP & AI Research at MBZUAI - Text Understanding & Analysis"
+layout: gridlay
+excerpt: "RiTUAL: Team members | RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL)."
 sitemap: false
-permalink: /vacancies
+permalink: /team/
 ---
 
-<h2> Open positions </h2>
+<h3>Group Members</h3>   Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#research-assistants), [master students](#master-and-bachelor-students), [alumni](#alumni).
 
-**We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
-
-We are  looking for new group members with passion, talent, and grit!
-
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
-
-### Past open positions
-
-You find the past job openings here:
-[Opening 1]({{ site.baseurl }}/downloads/GeneralPostdoc_2019_v01.pdf),
-[Opening 2]({{ site.baseurl }}/downloads/PPMS_PhD_2019_v01.pdf),
-[Opening 3]({{ site.baseurl }}/downloads/PD.pdf),
-[Opening 4]({{ site.baseurl }}/downloads/PHD1.pdf),
-[Opening 5]({{ site.baseurl }}/downloads/PHD2.pdf).
-
-### Applications for PhD and Postdoc positions
-If you are interested in working with us as a PhD student or postdoc, please send me an [email](mailto:milan.allan@gmail.com). State briefly why you are interested and attach a CV, including information about the grades you had as an undergraduate. No need for a separate cover letter or certificates. **Important**: please insert _"Application PhD"_ or _"Application Postdoc"_ in the subject line. If you are applying to a specific advertisement, note this in your email.
-
-We especially welcome postdocs with fellowships. I'd be happy to support you, also after you apply to our group. Take a look at the [veni fellowship](https://www.nwo.nl/en/calls/nwo-talent-programme-veni-science-domain) or the Marie Curie fellowship (currently closed, next deadline probably Fall 2021, [here is last years call]({{ site.baseurl }}/downloads/h2020-wp1820-msca_en.pdf)). In many country, there are also fellowships available for outdoing postdocs.**
+<!--Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support). -->
 
 
-### Master projects for Leiden University students
-If you are a Master student at Leiden University looking for a Master project, contact me (or any group member) per email or stop by my office.
+<h4 id="staff">Faculty</h4>
+{% assign number_printed = 0 %}
+{% for member in site.data.team_leader %}
 
-### Bsc / Master students from elsewhere
-If you are interested in pursuing a Master degree at Leiden University, see [mastersinleiden.nl](http://www.mastersinleiden.nl/programmes/physics/en/introduction). Sometimes, we take master students or summer interns if we get exceptional applicants (this usually means very good grades and a personal recommendation).
+{% assign even_odd = number_printed | modulo: 2 %}
 
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
 
-<figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/picpic/Gallery/DSC_0696.jpg" width="95%">
-</figure>
+<div class="col-sm-12 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/mbzuai_staff/{{ member.photo }}" class="img-responsive" width="30%" style="float: left" alt="{{ member.name }}" />
+  <h1 class="sub-heading bold">{{ member.name }}</h1>  
+  <em class="gray"> {{ member.role }}</em>
+
+[//]: # (  <a href="mailto:{{ member.email }}">{{ member.email }}</a>)
+  <div style="text-align: justify;">
+  <p>{{ member.info }}</p>
+  Email: {{ member.email }}
+  </div>
+ <p>X: {{ member.x }}</p>
+ <!-- <h5>Education:</h5>
+ -->
+<ul style="overflow: hidden">
+
+  {% if member.number_educ == 1 %}
+  <li> {{ member.education1 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 2 %}
+  <li> {{ member.education1 | markdownify}} </li>
+  <li> {{ member.education2 | markdownify}} </li>
+  {% endif %}
+
+  {% if member.number_educ == 3 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 4 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  {% endif %}
+
+  {% if member.number_educ == 5 %}
+  <li> {{ member.education1 }} </li>
+  <li> {{ member.education2 }} </li>
+  <li> {{ member.education3 }} </li>
+  <li> {{ member.education4 }} </li>
+  <li> {{ member.education5 }} </li>
+  {% endif %}
+
+</ul>
+</div>
+<div class="col-sm-12 clearfix">
+  <a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a>
+  <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a>
+</div>
+
+<div class="col-sm-12 clearfix">
+<a href="{{ member.x }}"  class="custom-sky-btn" target="_blank">X</a><br>
+</div>
