@@ -1,7 +1,7 @@
 ---
-title: "RiTUAL - Team | NLP & AI Research at MBZUAI - Text Understanding & Analysis"
+title: "Thamar Solorio | NLP Professor at MBZUAI - Text Understanding & Analysis"
 layout: gridlay
-excerpt: "RiTUAL: Team members | RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL)."
+excerpt: "Thamar Solorio | RiTUAL is a leading NLP and AI research group at Mohamed Bin Zayed University of Artificial Intelligences (MBZUAL)."
 sitemap: false
 permalink: /thamarsolorio/
 ---
@@ -64,8 +64,6 @@ permalink: /thamarsolorio/
 </ul>
 </div>
 <div class="col-sm-12 clearfix">
-  <!-- <a href="{{ member.website }}" class="custom-sky-btn" target="_blank">PERSONAL WEBSITE</a> -->
-  <a href="{{ site.url }}{{ site.baseurl }}/thamarsolorio" class="custom-sky-btn">PERSONAL WEBSITE</a>
   <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a>
 </div>
 
