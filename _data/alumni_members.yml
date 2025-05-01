@@ -9,6 +9,16 @@
   education3:
   education4:
 
+- name: Toqeer Ehsan
+  photo: toqeer.jpg
+  duration:  March 2024 - 
+  info: Toqeer Ehsan is a postdoctoral researcher at MBZUAI, holding a doctoral degree in Computer Science with a specialization in Natural Language Processing (NLP). His research primarily focuses on developing systems for low-resource languages to perform tasks such as Information Extraction, Sentiment Analysis, Machine Translation, and Code-mixed text analysis. He also works on cross-lingual data augmentation techniques to address the challenges posed by the scarcity of annotated data in low-resource languages.
+  email: toqeer.ehsan@mbzuai.ac.ae
+  number_educ: 1
+  education1: Ph.D. Computer Science 
+  education2:
+  education3:
+  education4:
 # - name: Second Name
 #   photo: verdoes1.jpg
 #   duration:  Month 2021 - Month 2023
