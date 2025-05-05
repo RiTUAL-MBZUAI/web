@@ -9,9 +9,9 @@
 title: RiTUAL
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Website of the NLP Research Group at MBZUAI.
+  Website of RiTUAL (Research in Text Understanding and Analysis of Language) Research Group at MBZUAI.
 baseurl: "/web"
-url: "https://ritual-uh.github.io"
+url: "https://ritual-mbzuai.github.io"
 
 include:
   - .htaccess
