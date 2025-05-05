@@ -19,3 +19,14 @@
   education2: M.Sc in Information Technology 
   education3: B.Sc in Computer Science
   education4:
+
+- name: Aseem Srivastava
+  photo: aseem.jpeg
+  duration: April 2025 - Present
+  info: Aseem is a Postdoctoral Researcher at MBZUAI, working jointly with Prof. Thamar Solorio and Prof. Monojit Choudhury. He received his Ph.D. in Computer Science from IIIT Delhi, India, where he was supervised by Prof. Shad Akhtar and Prof. Tanmoy Chakraborty. Aseem's research focuses on how people interact in digital environments and using LLMs to address social challenges pertaining to digital health and cultural dynamics. [Personal website](https://as3eem.github.io/).
+  email: aseem.srivastava@mbzuai.ac.ae
+  number_educ: 2
+  education1: Ph.D. in Computer Science
+  education2: B.Tech in Computer Science 
+  education3: 
+  education4:
