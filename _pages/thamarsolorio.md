@@ -107,11 +107,12 @@ permalink: /thamarsolorio/
 </div></div>
 </div>
 
-<h4 id="Accolades">Accolades</h4>
+<h4 id="Accolades">Awards and Others</h4>
 <div class="row">
 <div class="col-sm-12 clearfix">
 <div style="text-align: justify;">
 * Editor in Chief of the ACL Rolling Review (ARR) initiative, 2022-
+* General Chair for EMNLP 2024
 * ARR Advisory board member
 * Elected board member to the North American Chapter of Association for Computational Linguistics
 * UHCS Academic Excellence Award, COSC Department Award,  Fall 2017
@@ -122,14 +123,11 @@ permalink: /thamarsolorio/
 </div></div>
 </div>
 
-<h4 id="Research">Research</h4>
+<h4 id="Research">Publications</h4>
 <div class="row">
 <div class="col-sm-12 clearfix">
 <div style="text-align: justify;">
-She has coauthored more than 200 publications in a wide range of NLP topics:
-* Pubication 1
-* Pubication 2
-* Pubication 3
+See my <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a> Profile for an updated list of publications.
 </div></div>
 </div>
 
