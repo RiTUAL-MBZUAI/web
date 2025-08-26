@@ -1,50 +1,43 @@
 ---
 layout: default
-title: Dr. Jane Doe
+title: Leader
 permalink: /leader/
 ---
 
-<!-- Leader profile hero section -->
+{% assign leader = site.data.leader %}
+
+<!-- Leader profile hero section populated from leader.yml data -->
 <section class="leader-hero">
-  <!-- Use the group leader's photo as a background image -->
-  <div class="profile-img" style="background-image: url('{{ '/images/member1.png' | relative_url }}');"></div>
-  <h1>Dr. Jane Doe</h1>
-  <h2>Professor of [Field]</h2>
-  <p>Leading innovative research in multilingual and multimodal NLP and mentoring the next generation of scientists.</p>
+  <div class="profile-img" style="background-image: url('{{ '/images/' | append: leader.photo | relative_url }}');"></div>
+  <h1>{{ leader.name }}</h1>
+  <h2>{{ leader.title }}</h2>
+  <p>{{ leader.tagline }}</p>
   <div class="leader-contact">
-    <a href="mailto:firstnameperiodlastname@mbzuai.ac.ae" aria-label="Email Thamar Solorio"><span aria-hidden="true">✉</span></a>
-    <a href="https://twitter.com/thamar_solorio" aria-label="Follow on X/Twitter" target="_blank"><span aria-hidden="true">X</span></a>
-    <a href="https://scholar.google.com" aria-label="Google Scholar Profile" target="_blank"><span aria-hidden="true">GS</span></a>
+    <a href="mailto:{{ leader.email }}" aria-label="Email {{ leader.name }}"><span aria-hidden="true">✉</span></a>
+    {% if leader.twitter %}
+    <a href="{{ leader.twitter }}" aria-label="Follow on X/Twitter" target="_blank"><span aria-hidden="true">X</span></a>
+    {% endif %}
+    {% if leader.scholar %}
+    <a href="{{ leader.scholar }}" aria-label="Google Scholar Profile" target="_blank"><span aria-hidden="true">GS</span></a>
+    {% endif %}
   </div>
 </section>
 
 <!-- Biography -->
 <div class="leader-section">
   <h2>Bio</h2>
-  <p>
-    Professor Solorio was previously a Professor of Computer Science at the University of Houston and the
-    Director and Founder of the RiTUAL Lab at UH. She holds graduate degrees in computer science from the
-    National Institute of Astrophysics, Optics and Electronics (INAOE) in Puebla, Mexico【634441415130286†L20-L35】. She joined MBZUAI to lead the
-    RiTUAL group and continues to mentor students across multiple research programmes. Her research interests
-    include multilingual and low‑resource NLP, information extraction and multimodal problems.
-  </p>
-  <p>
-    Professor Solorio received an NSF CAREER award for her work on authorship attribution in 2014 and the
-    2014 Emerging Leader ABIE Award in Honor of Denice Denton【634441415130286†L20-L35】. She is currently serving a second term as an
-    elected board member of the North American Chapter of the Association for Computational Linguistics (NAACL) and
-    was Program Committee co‑chair for NAACL 2019. She is co‑Editor‑in‑Chief for the ACL Rolling Review (ARR)
-    system, a member of the ARR advisory board, and holds a US patent awarded in 2022 for work on
-    recommendation systems for books【634441415130286†L20-L35】.
-  </p>
+  {% for paragraph in leader.bio %}
+  <p>{{ paragraph }}</p>
+  {% endfor %}
 </div>
 
 <!-- Research interests -->
 <div class="leader-section">
   <h2>Research Interests</h2>
   <ul>
-    <li>Multilingual Natural Language Processing</li>
-    <li>Low‑resource machine learning</li>
-    <li>Multimodal information extraction</li>
+    {% for interest in leader.interests %}
+    <li>{{ interest }}</li>
+    {% endfor %}
   </ul>
 </div>
 
@@ -52,9 +45,9 @@ permalink: /leader/
 <div class="leader-section">
   <h2>Education</h2>
   <ul>
-    <li>Ph.D. in Computer Science, National Institute of Astrophysics, Optics and Electronics, Puebla, Mexico</li>
-    <li>Master’s in Computer Science, National Institute of Astrophysics, Optics and Electronics, Puebla, Mexico</li>
-    <li>Bachelor of Science in Computer Systems Engineering, Autonomous University of Chihuahua, Mexico</li>
+    {% for edu in leader.education %}
+    <li>{{ edu }}</li>
+    {% endfor %}
   </ul>
 </div>
 
@@ -62,26 +55,16 @@ permalink: /leader/
 <div class="leader-section">
   <h2>Awards &amp; Honors</h2>
   <ul>
-    <li>Editor in Chief of the ACL Rolling Review (ARR) initiative, 2022–</li>
-    <li>General Chair for EMNLP 2024</li>
-    <li>ARR Advisory board member</li>
-    <li>Elected board member to the North American Chapter of Association for Computational Linguistics</li>
-    <li>UHCS Academic Excellence Award, COSC Department Award, Fall 2017</li>
-    <li>CRA‑W Mid Career Mentoring Workshop, Travel Grant, June 2015</li>
-    <li>2014 Denice Denton Emerging Leader ABIE Award in Honor of Denice Denton</li>
-    <li>Research Visit for Distinguished Researchers, UPV, Spain, Fall 2011</li>
-    <li>Anthony Barnard Award, CIS, UAB, Fall 2011</li>
+    {% for award in leader.awards %}
+    <li>{{ award }}</li>
+    {% endfor %}
   </ul>
 </div>
 
 <!-- Publications note -->
 <div class="leader-section">
   <h2>Publications</h2>
-  <p>
-    For a comprehensive list of Dr.&nbsp;Solorio’s publications, please visit her
-    <a href="https://scholar.google.com" target="_blank">Google Scholar</a> profile. Consider including a selected list of recent
-    publications here to highlight her most notable work.
-  </p>
+  <p>{{ leader.publications_note }}</p>
 </div>
 
 <!-- Back link -->

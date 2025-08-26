@@ -1,0 +1,32 @@
+name: Dr. Jane Doe
+title: Professor of Natural Language Processing
+tagline: Leading innovative research in multilingual and multimodal NLP and mentoring the next generation of scientists.
+photo: member1.png
+email: firstnameperiodlastname@mbzuai.ac.ae
+twitter: https://twitter.com/thamar_solorio
+scholar: https://scholar.google.com
+bio:
+  - Professor Solorio was previously a Professor of Computer Science at the University of Houston and the Director and Founder of the RiTUAL Lab at UH. She holds graduate degrees in computer science from the National Institute of Astrophysics, Optics and Electronics (INAOE) in Puebla, Mexico. She joined MBZUAI to lead the RiTUAL group and continues to mentor students across multiple research programmes. Her research interests include multilingual and low‑resource NLP, information extraction and multimodal problems.
+  - Professor Solorio received an NSF CAREER award for her work on authorship attribution in 2014 and the 2014 Emerging Leader ABIE Award in Honor of Denice Denton. She is currently serving a second term as an elected board member of the North American Chapter of the Association for Computational Linguistics (NAACL) and was Program Committee co‑chair for NAACL 2019. She is co‑Editor‑in‑Chief for the ACL Rolling Review (ARR) system, a member of the ARR advisory board, and holds a US patent awarded in 2022 for work on recommendation systems for books.
+interests:
+  - Multilingual Natural Language Processing
+  - Low‑resource machine learning
+  - Multimodal information extraction
+education:
+  - Ph.D. in Computer Science, National Institute of Astrophysics, Optics and Electronics, Puebla, Mexico
+  - Master’s in Computer Science, National Institute of Astrophysics, Optics and Electronics, Puebla, Mexico
+  - Bachelor of Science in Computer Systems Engineering, Autonomous University of Chihuahua, Mexico
+awards:
+  - Editor in Chief of the ACL Rolling Review (ARR) initiative, 2022–
+  - General Chair for EMNLP 2024
+  - ARR Advisory board member
+  - Elected board member to the North American Chapter of Association for Computational Linguistics
+  - UHCS Academic Excellence Award, COSC Department Award, Fall 2017
+  - CRA‑W Mid Career Mentoring Workshop, Travel Grant, June 2015
+  - 2014 Denice Denton Emerging Leader ABIE Award in Honor of Denice Denton
+  - Research Visit for Distinguished Researchers, UPV, Spain, Fall 2011
+  - Anthony Barnard Award, CIS, UAB, Fall 2011
+publications_note: >-
+  For a comprehensive list of Dr. Solorio’s publications, please visit her
+  Google Scholar profile. Consider including a selected list of recent
+  publications here to highlight her most notable work.
