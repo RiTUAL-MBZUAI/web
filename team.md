@@ -1,0 +1,31 @@
+---
+layout: default
+title: Team
+permalink: /team/
+---
+
+<section class="page-header container">
+  <h1>Our Team</h1>
+  <p>Meet the people driving our research forward. Replace the example profiles below with details about your
+    colleagues.</p>
+</section>
+<section class="team container">
+  <div class="team-grid">
+    {% for member in site.data.team.members %}
+    <div class="team-member reveal">
+      <div class="member-photo" style="background-image: url('{{ '/images/' | append: member.photo | relative_url }}')"></div>
+      <h3>{{ member.name }}</h3>
+      <p class="role">{{ member.role }}</p>
+      <p>{{ member.bio }}</p>
+      <div class="social-icons">
+        <a href="{{ member.email }}" aria-label="Email {{ member.name }}"><span aria-hidden="true">&#9993;</span></a>
+        <a href="{{ member.linkedin }}" aria-label="LinkedIn {{ member.name }}"><span aria-hidden="true">in</span></a>
+        {% if member.website and member.website != '#' %}
+        <a href="{{ member.website | prepend: '/' | relative_url }}" aria-label="Personal Site for {{ member.name }}"><span aria-hidden="true">&#127760;</span></a>
+        {% endif %}
+        <a href="{{ member.scholar }}" aria-label="Google Scholar for {{ member.name }}"><span aria-hidden="true">GS</span></a>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

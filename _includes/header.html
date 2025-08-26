@@ -1,25 +1,20 @@
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span><span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-
-    <a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/">
-		<img src="{{ site.url }}{{ site.baseurl }}/images/logo/ritual_logo_hd.png" alt="Logo" class="navbar-logo">
-	</a>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
-		<li><a href="{{ site.url }}{{ site.baseurl }}/allnews">News</a></li>
-		<!-- <li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li> -->
-<!--		<li><a href="{{ site.url }}{{ site.baseurl }}/pictures">(Pics)</a></li>-->
-	  </ul>
-	</div>
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo">
+      <!-- Use relative_url so that the logo loads correctly under GitHub Pages subpaths -->
+      <img src="{{ '/images/logo.png' | relative_url }}" alt="{{ site.title }} Logo" class="logo-img">
+      <span class="logo-text">{{ site.title }}</span>
+    </div>
+    <nav class="nav">
+      <ul id="menu">
+        <!-- Highlight the current page by comparing the current URL -->
+        <li><a href="{{ '/' | relative_url }}"{% raw %}{% if page.url == '/' %} class="active"{% endif %}{% endraw %}>Home</a></li>
+        <li><a href="{{ '/team/' | relative_url }}"{% raw %}{% if page.url == '/team/' %} class="active"{% endif %}{% endraw %}>Team</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}"{% raw %}{% if page.url == '/publications/' %} class="active"{% endif %}{% endraw %}>Publications</a></li>
+        <li><a href="{{ '/news/' | relative_url }}"{% raw %}{% if page.url == '/news/' %} class="active"{% endif %}{% endraw %}>News</a></li>
+      </ul>
+      <!-- Mobile menu toggle button -->
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
+    </nav>
   </div>
-</div>
+</header>

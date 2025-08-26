@@ -1,0 +1,9 @@
+publications:
+  - title: "An Example Journal Paper"
+    authors: "J. Doe, A. Smith"
+    source: "Journal of Interesting Results, 2023"
+    type: "journal"
+  - title: "A Conference Paper Example"
+    authors: "S. Lee, J. Doe"
+    source: "Proceedings of the Sample Conference, 2024"
+    type: "conference"

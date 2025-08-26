@@ -1,0 +1,646 @@
+/*
+ * Base styles for the research group website. The design emphasises readability, simplicity and a
+ * clean, modern aesthetic. Feel free to adjust colours and spacing to match your brand identity.
+ */
+
+/* CSS variables for easy theme customisation */
+:root {
+  --primary-color: #0a192f;
+  --secondary-color: #64ffda;
+  --text-color: #102a43;
+  --light-bg: #f5f5f5;
+  /* Role colour for team member titles (e.g. Group Leader, PhD Candidate). Adjust this if the accent is too bright. */
+  --role-color: #6c7a89;
+  /* Custom gradient colours for the group leader hero section. Adjust these to change the hero background. */
+  --leader-gradient-start: #4a148c;
+  --leader-gradient-end: #00bcd4;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: var(--text-color);
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Header and navigation */
+.site-header {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.logo-img {
+  width: 36px;
+  height: 36px;
+}
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+.nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+.nav a {
+  color: var(--primary-color);
+  font-weight: 500;
+  padding: 1rem 0;
+  transition: color 0.2s ease;
+}
+.nav a.active,
+.nav a:hover {
+  color: var(--secondary-color);
+}
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* The hero background image is relative to the CSS file location. When the
+     site is built by Jekyll, assets live in /assets/css and images live in
+     /images, so we need to traverse up one directory to reach them. */
+  background-image: url('../images/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(10, 25, 47, 0.6);
+}
+.hero-content {
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.hero .highlight {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+
+/* Call‑to‑action button */
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+}
+.btn:hover {
+  background-color: #52e0c4;
+  transform: translateY(-2px);
+}
+.btn i {
+  margin-left: 0.5rem;
+}
+
+/* Overview section */
+.overview {
+  padding: 3rem 0;
+  text-align: center;
+}
+.overview h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.overview p {
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+/* Page header */
+.page-header {
+  padding: 3rem 0 1rem;
+  text-align: center;
+}
+.page-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+.page-header p {
+  max-width: 700px;
+  margin: 0.5rem auto 0;
+}
+
+/* Team grid */
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0 3rem;
+}
+.team-member {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Ensure enough vertical space for social icons */
+  min-height: 360px;
+}
+.team-member:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.member-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto 1rem;
+  background-color: #eaeaea;
+}
+.team-member h3 {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+.team-member .role {
+  /* Use a dedicated colour for roles instead of the bright secondary accent. */
+  color: var(--role-color);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+.team-member p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Social icons within team cards */
+.social-icons {
+  margin-top: 0.75rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.6rem;
+}
+.social-icons a {
+  margin: 0 0.35rem;
+  color: var(--primary-color);
+  font-size: 1.25rem;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4f8;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+.social-icons a:hover {
+  color: var(--secondary-color);
+  background-color: #e0f7f1;
+  transform: translateY(-2px);
+}
+
+/* Hide social icons until card hover for a cleaner look */
+.social-icons {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.team-member:hover .social-icons {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Reveal animation for scroll‑in effect */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Publications list */
+.publication-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 3rem;
+}
+.publication-list li {
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+.publication-list strong {
+  color: var(--primary-color);
+}
+
+/* Scholar link notice */
+.scholar-link {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+.scholar-link a {
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+.scholar-link a:hover {
+  text-decoration: underline;
+}
+
+/* Publication filters */
+.pub-filters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.filter-btn {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--primary-color);
+  background-color: #fff;
+  color: var(--primary-color);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+.filter-btn.active,
+.filter-btn:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+/* Research areas section */
+.areas {
+  padding: 3rem 0;
+  text-align: center;
+}
+.areas h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.area {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.area:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+.area i {
+  font-size: 2rem;
+  color: var(--secondary-color);
+  margin-bottom: 0.75rem;
+}
+.area h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--primary-color);
+}
+.area p {
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* Back to top button */
+.to-top {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 100;
+}
+.to-top.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+.to-top:hover {
+  transform: translateY(-3px);
+}
+
+/* News items */
+.news-item {
+  margin-bottom: 2rem;
+}
+.news-item h3 {
+  margin-bottom: 0.25rem;
+  font-size: 1.4rem;
+  color: var(--primary-color);
+}
+.news-item .date {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #777;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+.news-item p {
+  margin-top: 0;
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+/* Footer */
+.site-footer {
+  background-color: var(--primary-color);
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav ul {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    flex-direction: column;
+    gap: 0;
+    display: none;
+    border-top: 1px solid #eaeaea;
+  }
+  .nav ul.open {
+    display: block;
+  }
+  .nav li {
+    border-bottom: 1px solid #eaeaea;
+  }
+  .nav a {
+    padding: 0.75rem 1rem;
+  }
+  .nav-toggle {
+    display: block;
+    margin-left: 1rem;
+  }
+  .header-inner {
+    height: auto;
+    flex-wrap: wrap;
+  }
+  .logo {
+    margin: 0.75rem 0;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
+/*
+ * Profile page styles for the group leader.
+ * Layout places the photo alongside key details such as role, research interests and contact links.
+ * Cards reuse the same colour palette and rounded corners as the rest of the site.
+ */
+.leader-profile {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: flex-start;
+  padding: 3rem 0;
+}
+.leader-profile .profile-image {
+  flex: 1 1 250px;
+  max-width: 300px;
+}
+.leader-profile .profile-image img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.leader-profile .profile-info {
+  flex: 2 1 400px;
+}
+.leader-profile .profile-info h2 {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+.leader-profile .profile-info h3 {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-top: 0.5rem;
+}
+.leader-profile .profile-info p {
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+.leader-profile .profile-info a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+.leader-profile .profile-info a:hover {
+  text-decoration: underline;
+}
+.leader-profile .social-icons-other {
+  margin-top: 0.75rem;
+}
+.leader-profile .social-icons-other a {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--primary-color);
+  width: 32px;
+  height: 32px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f4f8;
+  border-radius: 50%;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+.leader-profile .social-icons-other a:hover {
+  background-color: #e0f7f1;
+  color: var(--secondary-color);
+  transform: translateY(-2px);
+}
+
+/* Back link styling for profile page */
+.back-link {
+  color: var(--secondary-color);
+  font-weight: 600;
+  text-decoration: none;
+}
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/*
+ * Custom styling for the group leader’s personal page. The hero uses a gradient to set the tone,
+ * while subsequent sections sit inside card‑like containers for readability. Contact icons mirror
+ * the circular buttons used on team cards but reversed in colour for better contrast on the dark
+ * gradient.
+ */
+.leader-hero {
+  /* Use custom variables for the leader page gradient so it can differ from the rest of the site */
+  background: linear-gradient(to right, var(--leader-gradient-start), var(--leader-gradient-end));
+  color: #ffffff;
+  padding: 4rem 0;
+  text-align: center;
+}
+.leader-hero .profile-img {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  background-size: cover;
+  background-position: center;
+  border: 4px solid rgba(255, 255, 255, 0.3);
+}
+.leader-hero h1 {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+}
+.leader-hero h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  opacity: 0.9;
+  margin-bottom: 0.75rem;
+}
+.leader-hero p {
+  font-size: 1rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto 1rem;
+}
+.leader-contact {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+.leader-contact a {
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.leader-contact a:hover {
+  background-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-2px);
+}
+.leader-section {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: var(--max-width);
+}
+.leader-section h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+.leader-section p,
+.leader-section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+.leader-section ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
