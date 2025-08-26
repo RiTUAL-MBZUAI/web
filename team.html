@@ -6,8 +6,7 @@ permalink: /team/
 
 <section class="page-header container">
   <h1>Our Team</h1>
-  <p>Meet the people driving our research forward. Replace the example profiles below with details about your
-    colleagues.</p>
+  <p>Meet the people driving our research forward.</p>
 </section>
 <section class="team container">
   <div class="team-grid">
@@ -24,7 +23,13 @@ permalink: /team/
           <a href="{{ member.linkedin }}" aria-label="LinkedIn {{ member.name }}"><span aria-hidden="true">in</span></a>
           {% endif %}
           {% if member.website and member.website != '#' %}
+          {% if member.website contains 'http' %}
+          <!-- If the website is an absolute URL (starts with http), link directly to it -->
+          <a href="{{ member.website }}" aria-label="Personal Site for {{ member.name }}" target="_blank"><span aria-hidden="true">&#127760;</span></a>
+          {% else %}
+          <!-- For internal pages on this site, prepend a slash and apply the relative_url filter -->
           <a href="{{ member.website | prepend: '/' | relative_url }}" aria-label="Personal Site for {{ member.name }}"><span aria-hidden="true">&#127760;</span></a>
+          {% endif %}
           {% endif %}
           {% if member.scholar %}
           <a href="{{ member.scholar }}" aria-label="Google Scholar for {{ member.name }}"><span aria-hidden="true">GS</span></a>
