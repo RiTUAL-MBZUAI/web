@@ -3,7 +3,7 @@ members:
   - name: "Thamar Solorio"
     role: "Professor of Natural Language Processing"
     bio: "Professor Solorio’s research interests include all things multilingual, low‑resource NLP, information extraction and, more recently, multimodal problems. She leads the RiTUAL group at MBZUAI and mentors students across multiple research programmes."
-    photo: "member1.png"
+    photo: "images/mbzuai_staff/Thamar Solorio.jpg"
     email: "mailto:firstnameperiodlastname@mbzuai.ac.ae"
     linkedin: "#"  # update with real LinkedIn URL if available
     website: "leader"  # links to the leader profile page
