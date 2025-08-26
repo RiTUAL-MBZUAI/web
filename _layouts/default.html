@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% raw %}{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endraw %}</title>
+  <title>{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <!-- Preconnects for Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,11 +15,11 @@
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
 </head>
 <body>
-  {% raw %}{% include header.html %}{% endraw %}
+  {% include header.html %}
   <main>
     {{ content }}
   </main>
-  {% raw %}{% include footer.html %}{% endraw %}
+  {% include footer.html %}
   <!-- Back to top button -->
   <button id="toTop" class="to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
   <!-- JavaScript for interactivity -->

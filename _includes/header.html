@@ -8,10 +8,10 @@
     <nav class="nav">
       <ul id="menu">
         <!-- Highlight the current page by comparing the current URL -->
-        <li><a href="{{ '/' | relative_url }}"{% raw %}{% if page.url == '/' %} class="active"{% endif %}{% endraw %}>Home</a></li>
-        <li><a href="{{ '/team/' | relative_url }}"{% raw %}{% if page.url == '/team/' %} class="active"{% endif %}{% endraw %}>Team</a></li>
-        <li><a href="{{ '/publications/' | relative_url }}"{% raw %}{% if page.url == '/publications/' %} class="active"{% endif %}{% endraw %}>Publications</a></li>
-        <li><a href="{{ '/news/' | relative_url }}"{% raw %}{% if page.url == '/news/' %} class="active"{% endif %}{% endraw %}>News</a></li>
+        <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Home</a></li>
+        <li><a href="{{ '/team/' | relative_url }}"{% if page.url == '/team/' %} class="active"{% endif %}>Team</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}"{% if page.url == '/publications/' %} class="active"{% endif %}>Publications</a></li>
+        <li><a href="{{ '/news/' | relative_url }}"{% if page.url == '/news/' %} class="active"{% endif %}>News</a></li>
       </ul>
       <!-- Mobile menu toggle button -->
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">&#9776;</button>
