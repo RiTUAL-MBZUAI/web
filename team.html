@@ -9,19 +9,18 @@ permalink: /team/
   <p>Meet the people driving our research forward. Replace the example profiles below with details about your
     colleagues.</p>
 </section>
-<section class="people container">
-  <div class="people-grid">
+<section class="team container">
+  <div class="team-cards">
     {% for member in site.data.team.members %}
-    <div class="person">
+    <div class="team-card">
       {% if member.photo and member.photo != '' %}
-      <div class="person-photo" style="background-image: url('{{ '/images/' | append: member.photo | relative_url }}')"></div>
-      {% else %}
-      <div class="person-photo placeholder">
-        <span>{{ member.name }}</span>
+      <div class="card-photo">
+        <img src="{{ '/images/' | append: member.photo | relative_url }}" alt="{{ member.name }} portrait">
       </div>
       {% endif %}
-      <div class="person-name">{{ member.name }}</div>
-      <div class="person-role">{{ member.role }}</div>
+      <h3 class="member-name">{{ member.name }}</h3>
+      <p class="member-role">{{ member.role }}</p>
+      <p class="member-bio">{{ member.bio }}</p>
     </div>
     {% endfor %}
   </div>
