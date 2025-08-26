@@ -10,11 +10,11 @@ permalink: /leader/
   <div class="profile-img" style="background-image: url('{{ '/images/member1.png' | relative_url }}');"></div>
   <h1>Dr. Jane Doe</h1>
   <h2>Professor of [Field]</h2>
-  <p>Leading innovative research in [keywords] and mentoring the next generation of scientists.</p>
+  <p>Leading innovative research in multilingual and multimodal NLP and mentoring the next generation of scientists.</p>
   <div class="leader-contact">
-    <a href="mailto:example@example.com" aria-label="Email"><span aria-hidden="true">✉</span></a>
-    <a href="#" aria-label="X/Twitter"><span aria-hidden="true">X</span></a>
-    <a href="#" aria-label="Google Scholar"><span aria-hidden="true">GS</span></a>
+    <a href="mailto:firstnameperiodlastname@mbzuai.ac.ae" aria-label="Email Thamar Solorio"><span aria-hidden="true">✉</span></a>
+    <a href="https://twitter.com/thamar_solorio" aria-label="Follow on X/Twitter" target="_blank"><span aria-hidden="true">X</span></a>
+    <a href="https://scholar.google.com" aria-label="Google Scholar Profile" target="_blank"><span aria-hidden="true">GS</span></a>
   </div>
 </section>
 
@@ -22,16 +22,19 @@ permalink: /leader/
 <div class="leader-section">
   <h2>Bio</h2>
   <p>
-    Dr.&nbsp;Doe is a professor in the [Department] at [University]. Prior to joining [University], she held
-    positions at [Previous Institution] and earned her graduate degrees in [field] from [Institution]. Her
-    research interests include [brief interests summary], and she has contributed to several high‑impact
-    projects. She is also active in professional service and outreach, serving on programme committees and
-    editorial boards.
+    Professor Solorio was previously a Professor of Computer Science at the University of Houston and the
+    Director and Founder of the RiTUAL Lab at UH. She holds graduate degrees in computer science from the
+    National Institute of Astrophysics, Optics and Electronics (INAOE) in Puebla, Mexico【634441415130286†L20-L35】. She joined MBZUAI to lead the
+    RiTUAL group and continues to mentor students across multiple research programmes. Her research interests
+    include multilingual and low‑resource NLP, information extraction and multimodal problems.
   </p>
   <p>
-    This biography section is inspired by a sample faculty profile page and illustrates how you might
-    include information on previous appointments, education, awards and leadership roles【634441415130286†L20-L35】. Replace this
-    placeholder text with specific details about your group leader.
+    Professor Solorio received an NSF CAREER award for her work on authorship attribution in 2014 and the
+    2014 Emerging Leader ABIE Award in Honor of Denice Denton【634441415130286†L20-L35】. She is currently serving a second term as an
+    elected board member of the North American Chapter of the Association for Computational Linguistics (NAACL) and
+    was Program Committee co‑chair for NAACL 2019. She is co‑Editor‑in‑Chief for the ACL Rolling Review (ARR)
+    system, a member of the ARR advisory board, and holds a US patent awarded in 2022 for work on
+    recommendation systems for books【634441415130286†L20-L35】.
   </p>
 </div>
 
@@ -49,9 +52,9 @@ permalink: /leader/
 <div class="leader-section">
   <h2>Education</h2>
   <ul>
-    <li>Ph.D.&nbsp;in [Field], [Institution], [Year]</li>
-    <li>M.S.&nbsp;in [Field], [Institution], [Year]</li>
-    <li>B.S.&nbsp;in [Field], [Institution], [Year]</li>
+    <li>Ph.D. in Computer Science, National Institute of Astrophysics, Optics and Electronics, Puebla, Mexico</li>
+    <li>Master’s in Computer Science, National Institute of Astrophysics, Optics and Electronics, Puebla, Mexico</li>
+    <li>Bachelor of Science in Computer Systems Engineering, Autonomous University of Chihuahua, Mexico</li>
   </ul>
 </div>
 
@@ -59,9 +62,15 @@ permalink: /leader/
 <div class="leader-section">
   <h2>Awards &amp; Honors</h2>
   <ul>
-    <li>[Award or recognition 1]</li>
-    <li>[Award or recognition 2]</li>
-    <li>[Award or recognition 3]</li>
+    <li>Editor in Chief of the ACL Rolling Review (ARR) initiative, 2022–</li>
+    <li>General Chair for EMNLP 2024</li>
+    <li>ARR Advisory board member</li>
+    <li>Elected board member to the North American Chapter of Association for Computational Linguistics</li>
+    <li>UHCS Academic Excellence Award, COSC Department Award, Fall 2017</li>
+    <li>CRA‑W Mid Career Mentoring Workshop, Travel Grant, June 2015</li>
+    <li>2014 Denice Denton Emerging Leader ABIE Award in Honor of Denice Denton</li>
+    <li>Research Visit for Distinguished Researchers, UPV, Spain, Fall 2011</li>
+    <li>Anthony Barnard Award, CIS, UAB, Fall 2011</li>
   </ul>
 </div>
 

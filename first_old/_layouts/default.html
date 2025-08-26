@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% raw %}{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}{% endraw %}</title>
+  <!-- Preconnects for Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Typography -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons (back to top arrow) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-VigJHv0aTKoHXKwrv0vSHP6xeO1d2A5Ca4ME7b3mohFosZCA7fm5+oKy0ZMnWNpoV7sZfkTskEKOrDT7N8E2jw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Main stylesheet; relative_url ensures correct asset paths when deployed to a subdirectory -->
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</head>
+<body>
+  {% raw %}{% include header.html %}{% endraw %}
+  <main>
+    {{ content }}
+  </main>
+  {% raw %}{% include footer.html %}{% endraw %}
+  <!-- Back to top button -->
+  <button id="toTop" class="to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></button>
+  <!-- JavaScript for interactivity -->
+  <script src="{{ '/assets/js/script.js' | relative_url }}"></script>
+</body>
+</html>

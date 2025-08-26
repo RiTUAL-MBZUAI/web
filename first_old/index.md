@@ -30,24 +30,24 @@ permalink: /
   <h2>Research Areas</h2>
   <div class="areas-grid">
     <div class="area reveal">
-      <i class="fas fa-eye"></i>
-      <h3>Visual Question Answering</h3>
-      <p>Building evaluation benchmarks and systems for culturally diverse visual question‑answering tasks.</p>
+      <i class="fas fa-brain"></i>
+      <h3>Neuroscience</h3>
+      <p>Understanding brain function and neural networks through computational and experimental approaches.</p>
     </div>
     <div class="area reveal">
-      <i class="fas fa-language"></i>
-      <h3>Multilingual & Code‑Switched NLP</h3>
-      <p>Developing NLP technology to support tasks involving multilingual and code‑switched data.</p>
+      <i class="fas fa-code"></i>
+      <h3>Machine Learning</h3>
+      <p>Developing algorithms and models that enable computers to learn from data and make intelligent decisions.</p>
     </div>
     <div class="area reveal">
-      <i class="fas fa-layer-group"></i>
-      <h3>Multimodal Models</h3>
-      <p>Designing models that fuse information from multiple modalities for richer content understanding.</p>
+      <i class="fas fa-microscope"></i>
+      <h3>Bioengineering</h3>
+      <p>Innovating at the interface of biology and engineering to create new tools and therapies.</p>
     </div>
     <div class="area reveal">
-      <i class="fas fa-bolt"></i>
-      <h3>Low‑Resource & Socially‑Aware NLP</h3>
-      <p>Advancing NLP methods for low‑resource settings and incorporating social intelligence into AI systems.</p>
+      <i class="fas fa-chart-line"></i>
+      <h3>Data Analysis</h3>
+      <p>Extracting insights from complex datasets to drive evidence‑based research and discovery.</p>
     </div>
   </div>
 </section>

@@ -1,25 +1,48 @@
 members:
-  - name: "Dr. Jane Doe"
-    role: "Group Leader"
-    bio: "Jane leads the research group and oversees projects in [Research Area]. Her interests include [topics] and she enjoys mentoring young scientists."
+  # Faculty and group leader
+  - name: "Thamar Solorio"
+    role: "Professor of Natural Language Processing"
+    bio: "Professor Solorio’s research interests include all things multilingual, low‑resource NLP, information extraction and, more recently, multimodal problems. She leads the RiTUAL group at MBZUAI and mentors students across multiple research programmes."
     photo: "member1.png"
-    email: "#"
-    linkedin: "#"
-    website: "leader"
-    scholar: "#"
-  - name: "John Smith"
-    role: "PhD Candidate"
-    bio: "John's work focuses on [topic], where he develops novel methodologies to solve challenging problems in [field]."
+    email: "mailto:firstnameperiodlastname@mbzuai.ac.ae"
+    linkedin: "#"  # update with real LinkedIn URL if available
+    website: "leader"  # links to the leader profile page
+    scholar: "https://scholar.google.com"  # replace with actual Google Scholar profile
+
+  # Postdoctoral researchers
+  - name: "Injy Hamed"
+    role: "Postdoctoral Associate"
+    bio: "Injy Hamed received her PhD from Stuttgart University and worked as a Research Assistant at CAMeL Lab in New York University Abu Dhabi before joining MBZUAI. Her research focuses on code‑switched and Arabic natural language processing."
     photo: "member2.png"
-    email: "#"
+    email: "mailto:injy.hamed@mbzuai.ac.ae"
     linkedin: "#"
     website: "#"
     scholar: "#"
-  - name: "Sarah Lee"
-    role: "Postdoctoral Fellow"
-    bio: "Sarah investigates [topic] and collaborates across disciplines to translate fundamental discoveries into practical applications."
+
+  - name: "Atnafu Lambebo Tonja"
+    role: "Postdoctoral Researcher"
+    bio: "Atnafu received his PhD in Computer Science from Instituto Politécnico Nacional, Mexico. His research interests include NLP for low‑resourced languages, multilingual language models, speech and multimodal NLP, and NLP for African languages."
     photo: "member3.png"
-    email: "#"
+    email: "mailto:atnafuatx@gmail.com"
+    linkedin: "#"
+    website: "#"
+    scholar: "#"
+
+  - name: "Aseem Srivastava"
+    role: "Postdoctoral Researcher"
+    bio: "Aseem is a postdoctoral researcher working jointly with Prof. Thamar Solorio and Prof. Monojit Choudhury. He received his PhD from IIIT Delhi. His research focuses on how people interact in digital environments and using large language models to address social challenges related to digital health and cultural dynamics."
+    photo: "member2.png"
+    email: "mailto:aseem.srivastava@mbzuai.ac.ae"
+    linkedin: "#"
+    website: "#"
+    scholar: "#"
+
+  # Doctoral students
+  - name: "Emilio Villa-Cueva"
+    role: "PhD Student"
+    bio: "Emilio Villa‑Cueva is a PhD student at MBZUAI. He holds a master’s degree in Computer Science from the Mathematics Research Center (CIMAT) and works on building systems capable of understanding human communication across different languages and cultures. His research interests include few‑shot learning, domain adaptation and cross‑lingual transfer."
+    photo: "member3.png"
+    email: "mailto:evillacueva@gmail.com"
     linkedin: "#"
     website: "#"
     scholar: "#"

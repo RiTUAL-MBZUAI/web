@@ -8,11 +8,5 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 markdown: kramdown
 
-# Disable the default GitHub Pages theme. Without this setting, GitHub Pages
-# automatically applies the `jekyll-theme-primer` which expects bootstrap
-# partials to be available. Our site provides its own layouts and styles, so we
-# explicitly disable the theme.
-theme: null
-
 # Collections can be defined here if you wish to create a collection of
 # documents. For this simple site we are using data files instead.
