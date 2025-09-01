@@ -5,9 +5,9 @@ members:
     bio: "Professor Solorio’s research interests include all things multilingual, low‑resource NLP, information extraction and, more recently, multimodal problems. She leads the RiTUAL group at MBZUAI and mentors students across multiple research programmes."
     photo: "Thamar Solorio.jpg"
     email: "mailto:firstname.lastname [at] mbzuai.ac.ae"
-    linkedin: "#"  # update with real LinkedIn URL if available
-    website: "leader"  # links to the leader profile page
-    scholar: "https://scholar.google.com/citations?user=Gmjwy-IAAAAJ&hl=en"  # replace with actual Google Scholar profile
+    linkedin: "#" # update with real LinkedIn URL if available
+    website: "leader" # links to the leader profile page
+    scholar: "https://scholar.google.com/citations?user=Gmjwy-IAAAAJ&hl=en" # replace with actual Google Scholar profile
 
   # Postdoctoral researchers
   - name: "Injy Hamed"
@@ -45,4 +45,14 @@ members:
     email: "mailto:evillacueva [at] gmail [dot] com"
     linkedin: "#"
     website: "https://villacu.github.io/"
+    scholar: "#"
+
+  # Master's students
+  - name: "Mena Attia"
+    role: "MSc Student"
+    bio: "Mena Attia is a second-year Master’s student in Natural Language Processing at MBZUAI. She holds a Bachelor’s degree in Computer Science from Cornell University. Her research interests include Arabic NLP and cultural alignment in large language models."
+    photo: "mena.png"
+    email: "mailto:mena.attia@mbzuai.ac.ae"
+    linkedin: "https://www.linkedin.com/in/mena-attia/"
+    website: "https://menaattia.com/"
     scholar: "#"
