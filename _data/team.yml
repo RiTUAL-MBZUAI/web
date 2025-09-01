@@ -46,3 +46,13 @@ members:
     linkedin: "#"
     website: "https://villacu.github.io/"
     scholar: "#"
+
+
+  - name: "Kareem Elzeky"
+    role: "MSc Student"
+    bio: "Kareem Elzeky is passionate about natural language processing, multimodal AI, and aligning large language models with human intent. His interests include cross-lingual understanding, multimodal AI, and exploring how models can learn from both text and human feedback."
+    photo: "kareem.jpeg"
+    email: "mailto:kareem.elzeky [at] mbzuai.ac.ae"
+    linkedin: "https://www.linkedin.com/in/kareemelzeky/"
+    website: "#"
+    scholar: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=6MrdmXIAAAAJ&gmla=AH8HC4yHeV5oOn5NCQQErGm8vcJwHW7M85p5Aoj8U33IBV36Uv4SFOGU7C8V80mqY77gYHB2R4tgYHgvIruodeqCfRWZrbm_bBayhDLin2thwgvKyFI"
