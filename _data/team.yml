@@ -46,3 +46,12 @@ members:
     linkedin: "#"
     website: "https://villacu.github.io/"
     scholar: "#"
+
+  - name: "Sholpan Bolatzhanova"
+    role: "2nd year MSc student"
+    bio: "Sholpan Bolatzhanova is a 2nd year MSc student at MBZUAI. Her research interests are Multimodal LLMs and Teohery of Mind."
+    photo: "sholpan.jpg"
+    email: "mailto:sholpan.bolatzhanova [at] gmail [dot] com"
+    linkedin: "https://www.linkedin.com/in/sholpan-bolatzhanova/"
+    website: "https://github.com/shellypek"
+    scholar: "#"
