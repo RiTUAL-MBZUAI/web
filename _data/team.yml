@@ -65,3 +65,13 @@ members:
     website: "https://github.com/shellypek"
     scholar: "#"
 
+
+  - name: "Diana Turmakhan"
+    role: "2nd year MSc student"
+    bio: "Diana Turmakhan is a 2nd year MSc student at MBZUAI. Her research interests include vision-language models, multimodal reasoning, low-resource NLP, and culturally-aware AI."
+    photo: "diana.jpg"
+    email: "mailto:diana.turmakhan [at] mbzuai.ac.ae"
+    linkedin: "https://www.linkedin.com/in/diana-turmakhan/"
+    website: "#"
+    scholar: "#"
+
