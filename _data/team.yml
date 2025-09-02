@@ -47,7 +47,6 @@ members:
     website: "https://villacu.github.io/"
     scholar: "#"
 
-
   - name: "Kareem Elzeky"
     role: "MSc Student"
     bio: "Kareem Elzeky is passionate about natural language processing, multimodal AI, and aligning large language models with human intent. His interests include cross-lingual understanding, multimodal AI, and exploring how models can learn from both text and human feedback."
@@ -56,3 +55,13 @@ members:
     linkedin: "https://www.linkedin.com/in/kareemelzeky/"
     website: "#"
     scholar: "https://scholar.google.com/citations?view_op=list_works&hl=en&user=6MrdmXIAAAAJ&gmla=AH8HC4yHeV5oOn5NCQQErGm8vcJwHW7M85p5Aoj8U33IBV36Uv4SFOGU7C8V80mqY77gYHB2R4tgYHgvIruodeqCfRWZrbm_bBayhDLin2thwgvKyFI"
+
+  - name: "Sholpan Bolatzhanova"
+    role: "2nd year MSc student"
+    bio: "Sholpan Bolatzhanova is a 2nd year MSc student at MBZUAI. Her research interests are Multimodal LLMs and Teohery of Mind."
+    photo: "sholpan.jpg"
+    email: "mailto:sholpan.bolatzhanova [at] gmail [dot] com"
+    linkedin: "https://www.linkedin.com/in/sholpan-bolatzhanova/"
+    website: "https://github.com/shellypek"
+    scholar: "#"
+
