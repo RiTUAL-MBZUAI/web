@@ -6,7 +6,7 @@
 /* CSS variables for easy theme customisation */
 :root {
   --primary-color: #0a192f;
-  --secondary-color: #64ffda;
+  --secondary-color: #ff8b8b;
   --text-color: #102a43;
   --light-bg: #f5f5f5;
   /* Role colour for team member titles (e.g. Group Leader, PhD Candidate). Adjust this if the accent is too bright. */
@@ -68,7 +68,7 @@ a {
   gap: 0.5rem;
 }
 .logo-img {
-  width: 36px;
+  width: 61px;
   height: 36px;
 }
 .logo-text {
@@ -116,7 +116,7 @@ a {
   /* The hero background image is relative to the CSS file location. When the
      site is built by Jekyll, assets live in /assets/css and images live in
      /images, so we need to traverse up one directory to reach them. */
-  background-image: url('../images/hero-bg.png');
+  background-image: url('../../images/ritual_team.png');
   background-size: cover;
   background-position: center;
 }
@@ -162,7 +162,7 @@ a {
   text-decoration: none;
 }
 .btn:hover {
-  background-color: #52e0c4;
+  background-color: #ff5151;
   transform: translateY(-2px);
 }
 .btn i {
@@ -213,7 +213,7 @@ a {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
   padding: 1.5rem;
   text-align: center;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94), box-shadow 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,7 +268,7 @@ a {
   justify-content: center;
   background-color: #f0f4f8;
   border-radius: 50%;
-  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  transition: background-color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), color 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .social-icons a:hover {
   color: var(--secondary-color);
@@ -279,12 +279,13 @@ a {
 /* Hide social icons until card hover for a cleaner look */
 .social-icons {
   opacity: 0;
-  transform: translateY(10px);
-  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: translateY(15px);
+  transition: opacity 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94), transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 .team-member:hover .social-icons {
   opacity: 1;
   transform: translateY(0);
+  transition-delay: 0.2s;
 }
 
 /* Hide member bio and social links until hover. The details container wraps
@@ -295,12 +296,13 @@ a {
   opacity: 0;
   max-height: 0;
   overflow: hidden;
-  transition: opacity 0.3s ease, max-height 0.3s ease;
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94), max-height 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .team-member:hover .member-details {
   opacity: 1;
   max-height: 600px;
+  transition-delay: 0.1s;
 }
 
 /* Reveal animation for scroll‑in effect */
