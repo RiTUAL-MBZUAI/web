@@ -53,7 +53,16 @@ permalink: /leader/
 
 <!-- Awards & honors -->
 <div class="leader-section">
-  <h2>Awards &amp; Honors</h2>
+  <h2>Awards</h2>
+  <ul>
+    {% for award in leader.awards %}
+    <li>{{ award }}</li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="leader-section">
+  <h2>Leadership &amp; Service</h2>
   <ul>
     {% for award in leader.awards %}
     <li>{{ award }}</li>
