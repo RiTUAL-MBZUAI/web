@@ -55,6 +55,19 @@ members:
     twitter: "https://x.com/kaushalMaurya94"
     github: "#"
     keywords: "Multilingual NLP, Responsible AI, AI for Education"
+    alumni: true
+
+  - name: "Iman Andrea King Al Sukaiti"
+    role: "Research Engineer"
+    bio: "Iman's research interests lie at the intersection of responsible natural language processing, human–AI interaction, and AI for social good. Her work on AI-assisted peer review examines how AI and human feedback can support scientific evaluation. Building on this, she is interested in how people engage with conversational AI across everyday tasks, including writing, learning, and decision-making, and how these interactions shape trust, reliance, and understanding. She aims to translate insights from people's experiences into systems that provide useful assistance while preserving opportunities to exercise judgment, develop skills, and participate meaningfully in their work. Iman is particularly interested in inclusive AI design and applications that support scientific or educational inquiry."
+    photo: "uploads/team/placeholder.png"
+    email: "mailto:imansukaiti@gmail.com"
+    linkedin: "https://linkedin.com/in/iman-sukaiti"
+    website: "#"
+    scholar: "#"
+    twitter: "#"
+    github: "https://github.com/AerdnaNami"
+    keywords: "Responsible NLP, AI for Science, AI for education"
 
   # Research Engineers
   - name: "An Vo"
@@ -68,6 +81,7 @@ members:
     twitter: "https://x.com/an_vo12"
     github: "#"
     keywords: "Trustworthy AI, Explainable AI"
+    alumni: true
 
   # Doctoral students
   - name: "Emilio Villa-Cueva"
@@ -133,7 +147,7 @@ members:
 
   # Master's students
   - name: "Kareem Elzeky"
-    role: "MSc Student"
+    role: "PhD Student"
     bio: "Kareem Elzeky is passionate about natural language processing, multimodal AI, and aligning large language models with human intent. His interests include cross-lingual understanding, multimodal AI, and exploring how models can learn from both text and human feedback."
     photo: "uploads/team/Kareem-Elzeky.jpg"
     email: "mailto:Kareem.Elzeky@mbzuai.ac.ae"
@@ -144,8 +158,8 @@ members:
     keywords: "Interpretability, Personalization, Multimodality"
 
   - name: "Mena Attia"
-    role: "MSc Student"
-    bio: "Mena is a second-year Master's student in Natural Language Processing at MBZUAI. She holds a Bachelor's degree in Computer Science from Cornell University. Her research focuses on Arabic NLP and cultural alignment in large language models, with a focus on figurative language. She investigates how LLMs understand and pragmatically use Arabic idioms and proverbs, and explores the broader relationship between figurative language and cultural knowledge, aiming to advance culturally grounded AI systems."
+    role: "Research Engineer"
+    bio: "Mena is a Research Engineer in Natural Language Processing at MBZUAI. She holds a Bachelor's degree in Computer Science from Cornell University. Her research focuses on Arabic NLP and cultural alignment in large language models, with a focus on figurative language. She investigates how LLMs understand and pragmatically use Arabic idioms and proverbs, and explores the broader relationship between figurative language and cultural knowledge, aiming to advance culturally grounded AI systems."
     photo: "uploads/team/Mena-Attia.jpg"
     email: "mailto:Mena.Attia@mbzuai.ac.ae"
     linkedin: "https://www.linkedin.com/in/mena-attia/"
@@ -164,11 +178,11 @@ members:
     scholar: "#"
     twitter: "https://x.com/shbolatzhanova"
     keywords: "LLMs, MAS"
-    
+    alumni: true
 
   - name: "Diana Turmakhan"
-    role: "MSc Student"
-    bio: "Diana Turmakhan is a 2nd year MSc student at MBZUAI. Her research interests include vision-language models, multimodal reasoning, low-resource NLP, and culturally-aware AI."
+    role: "Research Engineer"
+    bio: "Diana Turmakhan is a Research Engineer at MBZUAI. Her research interests include vision-language models, multimodal reasoning, low-resource NLP, and culturally-aware AI."
     photo: "uploads/team/Diana-Turmakhan.jpg"
     email: "mailto:Diana.Turmakhan@mbzuai.ac.ae"
     linkedin: "https://www.linkedin.com/in/diana-turmakhan/"
