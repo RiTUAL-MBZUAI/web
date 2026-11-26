@@ -43,6 +43,18 @@ members:
     github: "https://github.com/as3eem"
     keywords: "NLP, Well-being, Social Safety"
 
+  - name: "Nicholas Popovič"
+    role: "Research Engineer"
+    bio: "Nicholas's research focuses on how LLMs mediate between humans and information. He will defend his doctoral dissertation on information extraction at TU Dresden in December 2026."
+    photo: "uploads/team/placeholder.png"
+    email: "mailto:nicholas.popovic@mbzuai.ac.ae"
+    linkedin: "https://www.linkedin.com/in/nicholas-popovič-a585a5243/"
+    website: "https://nicpopovic.com/"
+    scholar: "https://scholar.google.com/citations?user=b0Q3-DoAAAAJ"
+    twitter: "https://x.com/nicpopovic"
+    github: "https://github.com/nicpopovic"
+    keywords: "Information Extraction, Information Access, Interpretability"
+
   # Research Scientists
   - name: "Kaushal Kumar Maurya"
     role: "Research Scientist"
